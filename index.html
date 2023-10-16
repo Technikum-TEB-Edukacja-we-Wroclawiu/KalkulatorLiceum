@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl-Pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Kalkulator punktów w Liceum TEB Edukacja we Wrocławiu</title>
+</head>
+<body class="all">
+    <div class="row align-items-center">
+    <div class="mx-auto col-10 col-md-8 col-lg-6">
+      <form>
+        <h1>Kalkulator ocen punktowych</h1>
+        <h5 class="mb-4">Liceum TEB Edukacja we Wrocławiu</h5> 
+       
+      
+        <div class="form-group mb-4">
+          <label for="pointsBig">Maksymalna liczba punktów do wpisania za sprawdzian/kartkówkę:</label>
+          <input type="number" class="form-control" id="pointsBig"/>
+        </div>
+
+        <div class="form-group mb-4">
+            <label for="pointsSmall">Maksymalna liczba punktów do zdobycia na sprawdzianie/kartkówce:</label>
+            <input type="number" class="form-control" id="pointsSmall"/>
+          </div>
+
+        <div class="form-group mb-4">
+            <label for="pointsAchive">Liczba punktów zdobytych:</label>
+            <input type="number" class="form-control" id="pointsAchive"/>
+        </div>
+
+        <div class="form-group mb-4">
+            <label for="pointsLibrus">Liczba punktów do wpisania do Librusa:</label>
+            <input type="number" readonly class="form-control" id="pointsLibrus"/>
+        </div>
+
+    </form>
+            <img src="logo.svg" alt="logo" >
+    </div>
+       
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
